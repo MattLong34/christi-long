@@ -1,7 +1,7 @@
 body {
 	font-family: "Raleway", sans-serif;
 	margin: 0;
-	padding: 100px 50px 50px 50px;
+	/* padding: 55px 50px 50px 50px; */
 	border: 0;
 }
 
@@ -11,14 +11,40 @@ nav {
 	/* padding: 50px; */
 }
 
-section {
+/* section {
 	height: 50vh;
 	padding-top: 70px;
-}
+} */
 
 /* Media Queries up here */
 
 /* HEADER  SECTION*/
+
+#hero-section {
+	color: white;
+}
+
+#hero {
+	background-image: url("src/Christi-Long-Hero.jpg");
+	height: 100vh;
+	background-position: center;
+	/* background-repeat: no-repeat; */
+	background-size: cover;
+}
+
+h2 {
+	position: absolute;
+	top: 20%;
+	right: 20%;
+	color: white;
+}
+
+#hero p {
+	position: absolute;
+	top: 25%;
+	right: 17%;
+	color: white;
+}
 
 /* HERO SECTION */
 
@@ -29,3 +55,45 @@ section {
 /* RESUME SECTION */
 
 /* FOOTER SECTION */
+/* Container holding the image and the text */
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}
+
+/* Top left text */
+.top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+/* Top right text */
+.top-right {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+}
+
+/* Centered text */
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
