@@ -17,8 +17,20 @@ section .container {
 	background-color: slategrey;
 	color: white;
 	padding: 1rem;
-	font-size: 1.5rem;
+	margin-top: 1rem;
 	/* margin: 50px; */
+}
+
+section .container h4 {
+	font-size: 1.5rem;
+}
+
+section .container p {
+	font-size: 1rem;
+}
+
+section img {
+	height: 70vh;
 }
 
 /* Media Queries up here */
