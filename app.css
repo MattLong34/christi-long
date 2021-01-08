@@ -33,32 +33,31 @@ body {
 }
 
 h3 {
-	margin: 3rem;
+	margin-bottom: 3rem;
 	padding-top: 100px;
-	/* font-weight: 700; */
-	font-size: 2.5rem;
+	font-size: 2rem;
+	color: darkslategrey;
 }
 
 section .container {
-	background-color: slategrey;
-	color: white;
+	color: darkslategrey;
 	padding: 3rem;
 	margin-top: 1rem;
-	/* margin: 50px; */
 }
 
 section .container h4 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin-bottom: 2rem;
 }
 
 section .container p {
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	/* margin: 2rem; */
 }
 
 section img {
 	width: 100%;
+	border: 2px solid darkslategrey;
 }
 
 /* HEADER  SECTION*/
